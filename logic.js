@@ -1,0 +1,13 @@
+let a=true;
+let b=false;
+let res= a|| b;
+console.log(res);
+res=a && b;
+console.log(res);
+console.log("==========");
+a=`John`;
+let nickName= a || "Anonymous" ;
+console.log(nickName);
+a=``;
+ nickName= a || "Anonymous" ;
+console.log(nickName);
